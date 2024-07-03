@@ -1,0 +1,23 @@
+.hamburger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .upper, .middle, .lower {
+        width: 20px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        top: 25%;
+        transition: ease-in-out .2s;
+    }
+    .middle {
+        top: 50%;
+    }
+
+    .lower {
+        top: 75%;
+    }
+}

@@ -1,0 +1,40 @@
+#searching {
+    max-width: 536px;
+    height: 40px;
+    #search-bar-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: inherit;
+        #search-bar {
+            border: none;
+            outline: 1px solid gray;
+            border-radius: 7px 0 0 7px;
+            height: inherit;
+        }
+        #search-icon-container {
+            height: inherit;
+            border: none;
+            width: 50px;
+            border-radius: 0 7px 7px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: 1px solid gray;
+            img {
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+        #microphone-container {
+            margin-left: 15px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
